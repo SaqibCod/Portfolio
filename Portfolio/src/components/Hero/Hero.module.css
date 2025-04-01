@@ -56,7 +56,7 @@
   /* width: 300px; /* Adjust as needed */
   /* height: 300px; */ 
   border-radius: 50%;
-  border: 5px solid white; /* Change color and size */
+  /* border: 5px solid white; Change color and size */
 
   animation-name: floating;
   animation-duration: 3s;
