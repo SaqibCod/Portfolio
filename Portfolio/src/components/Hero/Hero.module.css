@@ -37,6 +37,7 @@
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+ 
 }
 
 .contactBtn {
@@ -53,11 +54,8 @@
 .heroImg {
   width: 50%;
   z-index: 1;
-  /* width: 300px; /* Adjust as needed */
-  /* height: 300px; */ 
+  padding:3%;
   border-radius: 50%;
-  /* border: 5px solid white; Change color and size */
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -111,5 +109,17 @@
 
   .content {
     align-items: center;
+  }
+  .description {
+    text-align: center;
+    font-size: 27px;
+  }
+  .title {
+    text-align: center;
+    font-size: 50px;
+  }
+  .heroImg {
+    padding: 0;
+    margin-bottom: 14px;
   }
 }
